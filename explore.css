@@ -1,0 +1,35 @@
+.trend {
+    width: 287px;
+    height: 288px;
+}
+.padd {
+    padding: 60px;
+}
+#card {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+#card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.o{
+    float: left;
+    border: transparent;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    
+   
+}
+
+
+#abc:hover{
+    color: darkcyan;
+
+}
+span{
+    color: darkcyan;
+}

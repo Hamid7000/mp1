@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="home-header">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+          <a class="navbar-brand" href="#">REAL <span> MUSIC</span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nav-item " id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html"id="abc">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="aboutus.html"id="abc">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="explor.html"id="abc">EXPLORE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contactus.html"id="abc">CONTACT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="login.html"id="abc">SIGN UP</a>
+              </li>
+              
+            </ul>
+          </div>
+        </nav>
+    <div class="contiainer">
+        <div class="item">
+            <div class="Contact">
+                <div class="first-text">Lets get in touch</div>
+                <img src="photos/sound 3.jpg" alt="" class="image">
+                <div class="social-links">
+                    <span class="second-text">Connect with us:</span>
+                    <ul class="social-media">
+                        <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                        <li><a href="#"><i class='bx bxs-lemon'></i></a></li>
+                        </ul>
+                </div>
+            </div>
+            <div class="submit-form">
+                <h4 class="third-text">Contatct Us</h4>
+                <form action="">
+                    <div class="input-box">
+                        <input type="text" class="input" required>
+                        <label for="">Name</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" class="input" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="tel" class="input" required>
+                        <label for="">Phone</label>
+                    </div>
+                    <div class="input-box">
+                       <textarea name="" class="input" required id="message" cols="30" rows="10"></textarea>
+                        <label for="">Message</label>
+                    </div>
+                    <button type="submit" class="btn" onclick="openPopup()">Submit</button>
+                    <div class="popup" id="popup">
+                       <img src="media/tick 2.jpg">
+                        <h1>Thank You!</h1>
+                        <p class="det">Your details has been successfully submitted. Thanks! Enjoy Life has a Music </p>
+                        <button type="button" onclick="closePopup()">OK</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        let popup = document.getElementById("popup");
+
+        function openPopup(){
+            popup.classList.add("open-popup");
+        }
+        function closePopup(){
+            popup.classList.remove("open-popup");
+        }
+    </script>
+</body>
+</html>

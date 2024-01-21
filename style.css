@@ -1,0 +1,114 @@
+/* navbar */
+/* #color {
+    color: bisque;
+    margin-left: 5px;
+} */
+/* explore page */
+h3 {
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+}
+h6 {
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+}
+
+.cd{
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 13%;
+}
+.bar {
+    width: 2%;
+    margin-left: 49%;
+    margin-top: 15px;
+}
+.vcolor {
+    color: rgb(255, 255, 255);
+    float: right;
+    margin-right: -260%;
+    margin-top: -80%;
+   
+   
+   
+   
+   
+    font-size: large;
+    
+}
+
+#table {
+    width: 60%;
+    margin-left: 19%;
+    margin-top: 10%;
+    background-color: transparent;
+
+}
+#button {
+    width: 28%;
+}
+
+hr {
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+/* #block {
+    display: inline;
+    float: left;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 5%;
+    margin-top: 5%;
+    background-color: transparent;
+}
+#font {
+    color: white;
+}
+.mars {
+    color: white;
+    font-size: x-large;
+    margin-top: 30%;
+    text-align: center;
+    position: relative;
+}
+#rag {
+    margin-left: 43%;
+    width: 15%;
+    border-radius: 0px;
+    margin-bottom: 20px;
+
+} */
+
+#image {
+    width: 400px;
+    height: 400px;
+   padding: 15%;
+  
+  
+   
+}
+   
+
+   #font {
+    color: white;
+    text-align: center;
+   }
+   #rag {
+    margin-left: 43%;
+    width: 15%;
+    border-radius: 0px;
+    margin-bottom: 20px;
+
+}
+
+.o{
+    float: left;
+    border: transparent;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    
+   
+}
